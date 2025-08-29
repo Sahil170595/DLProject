@@ -45,7 +45,6 @@ Overall performance across the dataset:
    ```bash
    git clone https://github.com/<your-username>/mvtec-ad-anomaly-detection.git
    cd mvtec-ad-anomaly-detection
-````
 
 2. **Create environment & install dependencies**
 
