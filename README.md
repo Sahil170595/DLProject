@@ -1,3 +1,4 @@
+
 # MVTec-AD Anomaly Detection with Anomalib
 
 This repository applies anomaly detection to the [MVTec Anomaly Detection (MVTec-AD)](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset using the [Anomalib](https://github.com/openvinotoolkit/anomalib) library.  
@@ -44,3 +45,52 @@ Overall performance across the dataset:
    ```bash
    git clone https://github.com/<your-username>/mvtec-ad-anomaly-detection.git
    cd mvtec-ad-anomaly-detection
+````
+
+2. **Create environment & install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download MVTec-AD dataset**
+   [MVTec-AD download](https://www.mvtec.com/company/research/datasets/mvtec-ad)
+   Place it under:
+
+   ```
+   ./datasets/mvtec
+   ```
+
+---
+
+## ▶️ Usage
+
+Run the notebook:
+
+```bash
+jupyter notebook mvtec-ad-anomaly-detection-with-anomalib-library.ipynb
+```
+
+The notebook contains:
+
+* Model training & inference
+* AUROC/F1 evaluation
+* Visualizations of anomaly heatmaps and metrics
+
+---
+
+## 📚 References
+
+* [MVTec-AD Dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad)
+* [Anomalib Library](https://github.com/openvinotoolkit/anomalib)
+
+---
+
+## ✨ Acknowledgements
+
+This project was developed as part of anomaly detection research on industrial inspection datasets.
+Special thanks to the maintainers of **Anomalib** for providing an excellent framework for anomaly detection.
+
+---
+
+```
